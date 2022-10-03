@@ -15,6 +15,8 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # GMS
 WITH_GMS := true
 
+DEVICE_MAINTAINER := FBRIIIIIIIII
+
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lavender
 PRODUCT_MANUFACTURER := Xiaomi
