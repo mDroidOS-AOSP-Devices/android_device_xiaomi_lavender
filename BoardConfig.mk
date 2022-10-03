@@ -29,6 +29,8 @@ TARGET_SCREEN_DENSITY := 420
 
 # Kernel
 TARGET_KERNEL_CONFIG := lavender_defconfig
+TARGET_KERNEL_LLVM_BINUTILS := false
+BOARD_KERNEL_SEPARATED_DTBO := true
 
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest.xml
